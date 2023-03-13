@@ -1,0 +1,48 @@
+Insert sort
+R: Tablica posortowana w czasie 14.8 ms. Liczba operacji: 3730.
+S: Tablica posortowana w czasie 0.2 ms. Liczba operacji: 98.
+A: Tablica posortowana w czasie 18.5 ms. Liczba operacji: 7350.
+T: Tablica posortowana w czasie 6.7 ms. Liczba operacji: 2254.
+-----------------------
+Bubble sort
+R: Tablica posortowana w czasie 11.3 ms. Liczba operacji: 4878.
+S: Tablica posortowana w czasie 6.1 ms. Liczba operacji: 2450.
+A: Tablica posortowana w czasie 19.0 ms. Liczba operacji: 7350.
+T: Tablica posortowana w czasie 9.1 ms. Liczba operacji: 3696.
+-----------------------
+Shell sort
+R: Tablica posortowana w czasie 2.3 ms. Liczba operacji: 884.
+S: Tablica posortowana w czasie 1.2 ms. Liczba operacji: 396.
+A: Tablica posortowana w czasie 1.9 ms. Liczba operacji: 803.
+T: Tablica posortowana w czasie 1.5 ms. Liczba operacji: 606.
+-----------------------
+Merge sort
+R: Tablica posortowana w czasie 2.4 ms. Liczba operacji: 1008.
+S: Tablica posortowana w czasie 2.2 ms. Liczba operacji: 878.
+A: Tablica posortowana w czasie 2.1 ms. Liczba operacji: 838.
+T: Tablica posortowana w czasie 2.3 ms. Liczba operacji: 930.
+-----------------------
+Quick sort
+R: Tablica posortowana w czasie 3.3 ms. Liczba operacji: 1412.
+S: Tablica posortowana w czasie 2.3 ms. Liczba operacji: 978.
+A: Tablica posortowana w czasie 2.8 ms. Liczba operacji: 1166.
+T: Tablica posortowana w czasie 3.7 ms. Liczba operacji: 994.
+-----------------------
+Tim sort
+R: Tablica posortowana w czasie 8.8 ms. Liczba operacji: 3730.
+S: Tablica posortowana w czasie 0.3 ms. Liczba operacji: 96.
+A: Tablica posortowana w czasie 26.8 ms. Liczba operacji: 7350.
+T: Tablica posortowana w czasie 5.5 ms. Liczba operacji: 2254.
+
+Dla tablicy posortowanej losowo najlepiej poradził sobie : shell sort
+Dla tablicy posortowanej najlepiej poradził sobie : insertion sort
+Dla tablicy posortowanej w odwrotnej kolejności najlepiej poradził sobie : shell sort
+Dla tablicy z 3 posortowanymi sekwencjami najlepiej poradził sobie : shell sort
+
+Po uśrednieniu czasu wykonywania, algorytmy prezentują się w następującej kolejności :
+Shell : 1.725ms
+Merge : 2.25ms
+Quick : 3.025ms
+Insert : 10.05ms
+Tim : 10.35ms
+Bubble : 11.375ms
